@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp9.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:lvc="clr-namespace:LiveCharts.Wpf;assembly=LiveCharts.Wpf"
+        xmlns:local="clr-namespace:WpfApp9"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="800" Topmost="True">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="50*"/>
+            <RowDefinition Height="7*"/>
+        </Grid.RowDefinitions>
+        <ComboBox x:Name="SoundCardSelect">
+            
+        </ComboBox>
+        <Grid Margin="0,0,-0.4,0.4" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer  Grid.Column="0" VerticalScrollBarVisibility="Hidden" Padding="0,0,0,5">
+            <StackPanel x:Name="stackpanel" ></StackPanel>
+            </ScrollViewer>
+            <ScrollViewer Grid.Column="1"  VerticalScrollBarVisibility="Hidden"  Padding="0,0,0,5">
+            <StackPanel x:Name="SliderStackpanel" ></StackPanel>
+            </ScrollViewer>
+        </Grid>
+        <Grid Grid.Row="2">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"/>
+                    <RowDefinition Height="5*"/>
+                </Grid.RowDefinitions>
+                <Slider x:Name="MainSlider" Grid.Row="0"  Maximum="1"  Value="0.5" />
+                <Grid Grid.Row="1">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="1*"/>
+                        <ColumnDefinition Width="1*"/>
+                    </Grid.ColumnDefinitions>
+                    <Button Content="Active"   VerticalAlignment="Stretch"  HorizontalAlignment="Stretch" Click="Button_Click" Grid.Column="0" Margin="0,0,-0.4,-0.2"/>
+                    <Button Content="Stop"   VerticalAlignment="Stretch" HorizontalAlignment="Stretch" Click="Button_Click_1" Grid.Column="1"  Margin="0,0,-0.4,-0.2"/>
+                </Grid>
+            </Grid>
+
+        </Grid>
+    </Grid>
+</Window>

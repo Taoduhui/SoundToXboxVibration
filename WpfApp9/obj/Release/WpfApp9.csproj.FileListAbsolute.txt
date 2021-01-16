@@ -1,0 +1,15 @@
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\bin\Release\WpfApp9.exe.config
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\bin\Release\WpfApp9.exe
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\bin\Release\WpfApp9.pdb
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9.csprojAssemblyReference.cache
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\MainWindow.g.cs
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\App.g.cs
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9_MarkupCompile.cache
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9_MarkupCompile.lref
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\MainWindow.baml
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9.g.resources
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9.Properties.Resources.resources
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9.csproj.GenerateResource.cache
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9.csproj.CoreCompileInputs.cache
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9.exe
+C:\Users\X6TI-S\source\repos\WpfApp9\WpfApp9\obj\Release\WpfApp9.pdb
